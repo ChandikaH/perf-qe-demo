@@ -1,0 +1,4 @@
+export JMETER_DIR=/usr/share/jmeter/apache-jmeter-5.3
+export JTL_DIR=/usr/share/jmeter/jtl/perf-demo
+export LOG_DIR=/usr/share/jmeter/log/perf-demo
+export JMX_DIR=/usr/share/jmeter/apache-jmeter-5.3/bin/perf-demo
