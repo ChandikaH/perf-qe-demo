@@ -13,11 +13,11 @@
     <hashTree>
       <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="PET STORE - USER Flow" enabled="true">
         <collectionProp name="ultimatethreadgroupdata">
-          <collectionProp name="-2072480271">
+          <collectionProp name="1791875313">
             <stringProp name="1508085380">${__P(pICThreadCount,2)}</stringProp>
             <stringProp name="140648723">${__P(pICInitialDelay,1)}</stringProp>
             <stringProp name="-12310450">${__P(pICRampupTime,1)}</stringProp>
-            <stringProp name="-2090534963">${__P(pICDuration,6)}</stringProp>
+            <stringProp name="-382189329">${__P(pICDuration,20)}</stringProp>
             <stringProp name="-2067077783">${__P(pICRampDownPeriod,1)}</stringProp>
           </collectionProp>
         </collectionProp>
@@ -83,7 +83,7 @@
           </collectionProp>
         </Arguments>
         <hashTree/>
-        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data UserLIst" enabled="true">
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data UserLIst" enabled="false">
           <stringProp name="delimiter">,</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="filename">${csvFileName}</stringProp>
